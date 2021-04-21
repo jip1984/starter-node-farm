@@ -59,6 +59,7 @@ const dataObj = JSON.parse(data);
 const server = http.createServer((req, res) => {
     console.log(req.url);
 
+
     const pathName = req.url;
 
     //overview page
